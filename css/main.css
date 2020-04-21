@@ -1,0 +1,257 @@
+body {
+	margin: 0;
+	padding: 0;
+	color: #555;
+	font: normal 10pt Arial,Helvetica,sans-serif;
+	background: #EFEFEF;
+}
+#page {
+	margin: 5px auto;
+    width: 1200px;
+}
+#header {
+	margin: 0;
+	padding: 0;
+	border-top: 3px solid #C9E0ED;
+}
+#content {
+    width: 1000px;
+    margin: 0 auto;
+}
+.container {
+    width: 1200px;
+    margin: 0 auto;
+}
+#sidebar {
+	padding: 20px 20px 20px 0;
+}
+#footer {
+	/*height: 46px;*/
+    width: 1000px;
+	margin: 10px auto;
+	font-size: 1em;
+	border-top: 1px solid #C9E0ED;
+    background: url('/images/bottom.png') top left no-repeat;
+    vertical-align: middle;
+    color: white;
+}
+#footer span {
+    margin: 14px 10px 0 0;
+}
+#footer div {
+    margin-top: 50px;
+    color: #555;
+}
+#logo {
+	padding: 10px 20px;
+	font-size: 200%;
+}
+.page-container {
+    width: 1000px;
+    background-color: aqua;
+    margin: 0 auto;
+}
+#mainmenu {
+}
+#mainmenu ul {
+    width: 100%;
+    margin: 0px;
+    padding: 0;
+}
+
+#mainmenu ul li {
+	display: inline;
+}
+
+#mainmenu ul li a {
+	color:#5F6A7E;
+	background-color:transparent;
+	font-size:16px;
+	text-decoration:none;
+	padding:5px 8px;
+}
+#mainmenu ul li a:hover, #mainmenu ul li.active a, #aMenuFirst.active, #aMenuLast.active, #aMenuFirst:hover, #aMenuLast:hover {
+	color: #6399cd;
+	text-decoration:none;
+}
+#mainmenu table {
+    margin: 0;
+    padding: 0;
+    width: 1072px;
+    left: -38px;
+    position: relative;
+}
+#mainmenu td a, #aMenuFirst a, #aMenuLast a{
+    color: #5F6A7E;
+	background-color: transparent;
+	font-size: 16px;
+	text-decoration: none;
+	padding: 5px 8px;
+}
+#mainmenu td a:hover, #mainmenu td.active a {
+	color: #6399cd;
+	text-decoration:none;
+}
+#aMenuFirst {
+    position: relative;
+    left: -20px;
+    float: left;
+    top: 4px;
+}
+#aMenuLast {
+    float: right;
+}
+#tabMenu {
+    width: 100%;
+}
+#tabMenu td {
+    text-align: center;
+    vertical-align: top;
+}
+#tabMenu td ul {
+    display: none;
+    position: absolute;
+    text-align: left;
+    background-color: #BEC6C2;
+    /*border: 1px solid #aaa;padding: 5px;*/
+    width: 200px;
+    margin: 4px 0 0 50px;
+}
+#tabMenu td ul li {
+    display: block;
+    padding: 3px 0;
+}
+#tabMenu td ul li:hover {
+    background-color: #D0D6D3;
+}
+#tabMenu td ul li a.aMenuDelete, #tabMenu td a.aMenuDelete  {
+    font-weight: bolder;
+    color: red;
+}
+#tabMenu td ul li a.aMenuNew, #tabMenu td a.aMenuNew  {
+    font-weight: bolder;
+    color: black;
+}
+#tabMenu td a.aMenuEdit {
+    font-weight: bolder;
+    color: green;
+}
+#divMenuEdit {
+    width: 210px;
+    height: 80px;
+    background-color: #eee;
+    border: #5F6A7E solid 1px;
+    position: absolute;
+    top: 40px;
+    padding: 10px;
+    display: none;
+}
+#divMenuEdit span {
+    float: left;
+    margin-top: 7px;
+}
+#divMenuEdit input {
+    float: right;
+    margin-top: 4px;
+}
+div.flash-error, div.flash-notice, div.flash-success {
+	padding:.8em;
+	margin-bottom:1em;
+	border:2px solid #ddd;
+}
+div.flash-error {
+	background:#FBE3E4;
+	color:#8a1f11;
+	border-color:#FBC2C4;
+}
+div.flash-notice {
+	background:#FFF6BF;
+	color:#514721;
+	border-color:#FFD324;
+}
+div.flash-success {
+	background:#E6EFC2;
+	color:#264409;
+	border-color:#C6D880;
+}
+div.flash-error a {
+	color:#8a1f11;
+}
+div.flash-notice a {
+	color:#514721;
+}
+div.flash-success a {
+	color:#264409;
+}
+div.form .rememberMe label {
+	display: inline;
+}
+div.view {
+	padding: 10px;
+	margin: 10px 0;
+	border: 1px solid #C9E0ED;
+}
+div.breadcrumbs {
+	font-size: 0.9em;
+	padding: 5px 20px;
+}
+div.breadcrumbs span {
+	font-weight: bold;
+}
+div.search-form {
+	padding: 10px;
+	margin: 10px 0;
+	background: #eee;
+}
+.portlet {
+}
+.portlet-decoration {
+	padding: 3px 8px;
+	background: #B7D6E7;
+	border-left: 5px solid #6FACCF;
+}
+.portlet-title {
+	font-size: 12px;
+	font-weight: bold;
+	padding: 0;
+	margin: 0;
+	color: #298dcd;
+}
+.portlet-content {
+	font-size:0.9em;
+	margin: 0 0 15px 0;
+	padding: 5px 8px;
+	background:#EFFDFF;
+}
+.portlet-content ul {
+	list-style-image:none;
+	list-style-position:outside;
+	list-style-type:none;
+	margin: 0;
+	padding: 0;
+}
+.portlet-content li {
+	padding: 2px 0 4px 0px;
+}
+.operations {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+}
+.operations li {
+	padding-bottom: 2px;
+}
+.operations li a {
+	font: bold 12px Arial;
+	color: #0066A4;
+	display: block;
+	padding: 2px 0 2px 8px;
+	line-height: 15px;
+	text-decoration: none;
+}
+.operations li a:visited {
+	color: #0066A4;
+}
+.operations li a:hover {
+	background: #80CFFF;
+}

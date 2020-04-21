@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<vacancies date="апрель 2012">
+	
+    <vacancy>
+        <position>Водитель вездехода сейсморазведочной партии</position>
+        <department>Восточно-Сибирская сейсморазведочная экспедиция</department>
+        <schedule>Сезонный. Суммированный учет рабочего времени</schedule>
+        <requirements>Опыт работы в должности и условиях Крайнего Севера на МТЛБ, ГТ-34031 и т.д.</requirements>
+    </vacancy>
+    
+    <vacancy>
+        <position>Геофизик-оператор</position>
+        <department>Промыслово-геофизическая партия</department>
+        <schedule>Вахта месяц</schedule>
+        <requirements>Наличие высшего геофизического образования</requirements>
+    </vacancy>
+    
+</vacancies>

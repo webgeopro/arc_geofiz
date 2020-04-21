@@ -1,0 +1,38 @@
+vacancies {
+    display: block;
+    margin: 1em;
+    counter-reset: vac_cnt; /* Сбросим счетчик вакансий в самом начале */  
+	text-align: center;
+}
+br {
+	padding-left: 20px;
+}
+vacancies:before {
+    content: "Текущие вакансии ( " attr(date) " )";
+}
+vacancy {
+    text-align: left;
+    margin: 1em;
+    border: 0.1em solid #DDDDEE;
+    padding: 0.5em;
+    background-color: #EFEFEF;
+    counter-increment:vac_cnt; /* Увеличиваем счетчик вакансий при каждом отображении элемента*/    
+}
+vacancy, position, department, schedule, requirements , cnt , br {
+    display: block;
+}
+position:before {
+    content:"Должность: ";
+}
+department:before {
+    content:"Подразделение: ";
+}
+schedule:before {
+    content:"График, режим, характер, условия работы: ";
+}
+requirements:before {
+    content:"Требования: ";
+}
+vacancies:after {
+	content:"Всего вакансий: " counter(vac_cnt,decimal);
+}

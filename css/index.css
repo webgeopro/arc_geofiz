@@ -1,0 +1,88 @@
+.container {
+    background: #fff url('/images/main_top.jpg') top left no-repeat;
+}
+#content {
+    padding-top: 210px;
+}
+#logo-top {
+    background: url('/images/logo_top.png') top left no-repeat;
+    width: 591px;
+    height: 94px;
+    margin: 0 auto;
+}
+#first-word {
+    height: 224px;
+    width: 100%;
+    margin-top: 0;
+}
+div#wordPhoto {
+    background: url('/images/main-photo.jpg') top left no-repeat;
+    height: inherit;
+    width: 216px;
+    float: left;
+}
+div#wordText {
+    background: url('/images/baloon.png') bottom left no-repeat;
+    height: inherit;
+    width: 726px;
+    float: right;
+    color: white;
+    font-size: 14px;
+    padding: 5px 5px 5px 35px;
+    line-height: 30px;
+}
+div#wordText span {
+    font-size: 18px;
+}
+#mainmenu {
+    margin: 45px 0 10px 0;
+}
+#main-line {
+    width: 100%;
+    height: 26px;
+    background: url('/images/main_line.png') bottom left no-repeat;
+}
+/*#main-line {
+    margin-bottom: 20px;
+}*/
+#right-col {
+    width: 258px;
+    background: #BEC6C2;
+    vertical-align: top;
+    text-align: center;
+}
+#table-content h2 {
+    color: white;
+    margin: 0 auto;
+}
+div.news {
+    margin: 20px 4px 16px 4px;
+    text-align: left;
+    background: url('/images/button.png') top center no-repeat;
+    padding-top: 30px;
+}
+div.news-empty {
+    margin: 2px 8px 10px 8px;
+    background: url('');
+}
+td#right-col a {
+    float: right;
+    text-decoration: none;
+    color: #5F6A7E;
+}
+td#right-col a:hover {
+    color: #000;
+}
+div#find {
+    text-align: right;
+    height: 29px;
+    overflow: hidden;
+    padding: 0;
+    background-color: transparent;
+}
+div#find input.find {
+    width: 370px;
+}
+/*div#find input {
+    border: 4px solid #eee;
+}*/

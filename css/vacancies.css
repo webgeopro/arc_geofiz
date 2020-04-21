@@ -1,0 +1,28 @@
+#divVacDate {
+    text-align: center;
+    color: #5F6A7E;
+    font-size: 16px;
+    font-weight: bolder;
+}
+#table-content ul {
+    list-style: none;
+    border: solid #888 0;
+    border-bottom-width: 1px;
+}
+#table-content ul li {
+    color: #5F6A7E;
+    font-weight: bolder;
+    padding: 10px 0 10px 6px;
+}
+#table-content ul li div {
+    color: #777;
+    font-weight: normal;
+    padding-left:30px;
+}
+#divVacCnt {
+    text-align: right;
+    color: #5F6A7E;
+    font-size: 13px;
+    font-weight: bolder;
+    padding-right: 17px;
+}

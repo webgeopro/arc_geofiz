@@ -1,0 +1,5 @@
+allow from 127.0.0.1
+
+RewriteEngine on
+
+RewriteRule !\.(js|ico|gif|jpg|png|css|swf|htm|html|xml)$ index.php
